@@ -6,9 +6,9 @@ node {
         
     
 
-    
-        load 'stage_file_1'
+        shell '$PWD'
+        load '$PWD/stage_file_1'
   
-        load 'stage_file_2'
+        load '$PWD/stage_file_2'
     
 }}
