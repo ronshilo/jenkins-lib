@@ -1,0 +1,14 @@
+#!groovy
+
+node {
+    stage('Shared') {
+        echo 'Shared stage'
+        
+    
+
+    
+        load 'Project1/Jenkinsfile'
+  
+        load 'Project2/Jenkinsfile'
+    
+}}
