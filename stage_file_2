@@ -1,0 +1,3 @@
+stage('Stage 2') {
+    echo 'Project 2 Stage'
+}
