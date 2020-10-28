@@ -1,7 +1,5 @@
 def call() {
-        stage('Even Stage') {
-          steps {
+        stage('Even Stage') 
             echo "The build number is even"
-          }
         }
 }
