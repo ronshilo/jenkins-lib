@@ -6,7 +6,7 @@ node {
         
     
 
-        shell '$PWD'
+        shell 'echo $PWD'
         //load '$PWD/stage_file_1'
   
         //load '$PWD/stage_file_2'
