@@ -7,8 +7,8 @@ node {
     
 
         shell '$PWD'
-        load '$PWD/stage_file_1'
+        //load '$PWD/stage_file_1'
   
-        load '$PWD/stage_file_2'
+        //load '$PWD/stage_file_2'
     
 }}
